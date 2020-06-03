@@ -1,17 +1,18 @@
 <template>
   <div class="home">
-    <HomePage />
+    <RobotBuilder />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HomePage from '@/components/HomePage.vue';
+// import HomePage from '@/home/HomePage.vue';
+import RobotBuilder from '@/build/RobotBuilder.vue';
 
 export default {
   name: 'Home',
   components: {
-    HomePage,
+    RobotBuilder,
   },
 };
 </script>
