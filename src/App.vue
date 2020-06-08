@@ -4,13 +4,13 @@
       <nav id="nav">
         <ul>
           <li class="nav-item">
-            <router-link to="/">
+            <router-link to="/" exact>
               <img class="logo" src="./assets/build-a-bot-logo.png">
               Build a Bot
             </router-link>|
           </li>
           <li class="nav-item">
-            <router-link to="/about">About</router-link>
+            <router-link to="/build" exact>Build</router-link>
           </li>
         </ul>
       </nav>
@@ -56,5 +56,8 @@ ul {
 .logo {
   vertical-align: middle;
   height: 30px;
+}
+.router-link-active {
+  color: white;
 }
 </style>
