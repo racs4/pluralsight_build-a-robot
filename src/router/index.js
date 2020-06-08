@@ -70,6 +70,10 @@ const routes = [
     name: 'Parts',
     component: PartInfo,
     props: true,
+    befoteEnter(to, from, next) {
+      const validId = Number.isInteger(Number(to.params.id));
+      next(validId);
+    },
   },
 ];
 
