@@ -10,6 +10,7 @@ import RobotTorsos from '@/parts/RobotTorsos.vue';
 import RobotBases from '@/parts/RobotBases.vue';
 import SidebarStandart from '@/sidebar/SidebarStandart.vue';
 import SidebarBuild from '@/sidebar/SidebarBuild.vue';
+import ShoppingCart from '@/cart/ShoppingCart.vue';
 
 Vue.use(VueRouter);
 
@@ -74,6 +75,11 @@ const routes = [
       const validId = Number.isInteger(Number(to.params.id));
       next(validId);
     },
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: ShoppingCart,
   },
 ];
 
