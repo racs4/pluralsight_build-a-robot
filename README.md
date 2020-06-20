@@ -1,24 +1,13 @@
 # build-a-bot
 
-## Project setup
+## Rodando a aplicação
+### Para instalar as dependências
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+### Para iniciar o servidor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Projeto criado para fins didáticos seguindo o curso Vue.js Fundamentals by Jim Cooper disponível na plataforma Pluralsight.
